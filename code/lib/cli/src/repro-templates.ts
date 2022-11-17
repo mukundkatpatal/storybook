@@ -12,8 +12,6 @@ export const allTemplates = {
   'cra/default-ts': {
     name: 'Create React App (Typescript)',
     script: 'npx create-react-app . --template typescript',
-    // Re-enable once https://github.com/storybookjs/storybook/issues/19351 is fixed.
-    skipTasks: ['smoke-test'],
     expected: {
       // TODO: change this to @storybook/cra once that package is created
       framework: '@storybook/react-webpack5',
